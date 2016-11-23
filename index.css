@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.layer {
+    flex: 1;
+    min-height: 100px;
+    height: 100vh;
+}
+
+.layer-input {
+    background-color: #1db9c1;
+}
+
+.layer-hidden {
+    background-color: #9abc8d;
+}
+
+.layer-output {
+    background-color: #ddc090;
+}
+
+.neuron {
+    font-size: 11px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #eaeaea;
+    margin: 0 auto;
+
+    line-height: 100px;
+    text-align: center;
+}
+
+.ui-neuron-wrapper {
+    margin: 10px;
+}
+
+.bias-neuron {
+    background-color: #CCC;
+}
+
+.error-output {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border: solid 1px #CCC;
+    background-color: #FFF;
+    
+    width: 300px;
+    text-align: center;
+
+}
